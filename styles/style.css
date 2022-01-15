@@ -18,15 +18,25 @@ button {
   font-family: "Poppins", sans-serif;
   font-size: 24px;
   font-weight: 700;
+  margin-top: 87px;
+  margin-left: 120px;
 }
 
 /* cover page style */
+.cover-page {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 120px;
+  margin-right: 165px;
+}
 .cover-page-info {
   font-family: "Poppins", sans-serif;
+  width: 582px;
 }
 .cover-page-info h1 {
   font-size: 52px;
   font-weight: 700;
+  color: #3a3a3a;
 }
 .cover-page-info p {
   font-size: 16px;
