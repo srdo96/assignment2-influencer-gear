@@ -106,3 +106,35 @@ button a {
 .ratting .fa-star {
   color: #fb8200;
 }
+/*---------------
+  footer style 
+-----------------*/
+footer {
+  height: 239px;
+  background-color: #0a0826;
+}
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+}
+footer p {
+  font-size: 14px;
+  color: #d9dbe1;
+}
+.social-media {
+  display: flex;
+  /* justify-content: center; */
+}
+.social-media li {
+  list-style: none;
+}
+footer a {
+  color: #ffffff;
+}
