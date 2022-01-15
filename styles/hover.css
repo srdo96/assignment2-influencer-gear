@@ -1,0 +1,6 @@
+.product-pic {
+  transition: transform 0.5s;
+}
+.product-pic:hover {
+  transform: scale(1.2);
+}
