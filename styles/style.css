@@ -4,7 +4,9 @@
 /* ----------------
     common styles 
 -------------------*/
-
+body {
+  margin: 0;
+}
 button {
   font-size: 16px;
   height: 44px;
@@ -113,18 +115,25 @@ footer {
   height: 239px;
   background-color: #0a0826;
 }
+.footer-section {
+  width: 262px;
+  height: 139px;
+}
 .footer-content {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-footer h3 {
+footer h5 {
   font-size: 24px;
   font-weight: 700;
   color: #ffffff;
+  margin-top: 50px;
+  margin-bottom: 3px;
 }
-footer p {
+footer p,
+span {
   font-size: 14px;
   color: #d9dbe1;
 }
@@ -137,4 +146,5 @@ footer p {
 }
 footer a {
   color: #ffffff;
+  margin-right: 16px;
 }
