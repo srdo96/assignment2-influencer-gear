@@ -59,15 +59,42 @@ button a {
   height: 414px;
 }
 /* ----------------------------
-    populler collection style
+    popular collection style
 ------------------------------- */
+.popular-collection {
+  margin-left: 196px;
+  margin-right: 196px;
+}
+.popular-collection h3 {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 28px;
+  color: #3a3a3a;
+}
+.popular-collection a {
+  text-decoration: none;
+  display: flex;
+  justify-content: end;
+  margin-right: 197px;
+}
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(3, 329px);
+  justify-content: center;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
 .product-card {
   width: 329px;
   height: 476px;
+
+  border-radius: 5px;
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
   background-color: #ffffff;
 }
 .product-pic img {
+  border-radius: 5px;
   width: 300px;
   height: 256px;
 }
