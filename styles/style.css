@@ -148,7 +148,18 @@ body {
   margin-top: 3px;
   padding-left: 15px;
 }
-
+.see-more {
+  display: flex;
+  justify-content: end;
+  margin-right: 5%;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  height: 44px;
+  font-weight: bold;
+}
+.see-more a {
+  color: #e02c6d;
+}
 /* support style */
 
 .support-area {
