@@ -195,19 +195,7 @@ body {
   margin-left: 80px;
   margin-right: 80px;
 }
-.support-button {
-  background-color: #e02c6d;
-  font-size: 16px;
-  font-weight: 700;
-  margin-left: 500px;
-  width: 155px;
-  height: 44px;
-}
-.support-button a {
-  font-family: "Poppins", sans-serif;
-  text-decoration: none;
-  color: white;
-}
+
 /*---------------
   footer style 
 -----------------*/
