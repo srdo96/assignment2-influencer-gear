@@ -1,5 +1,6 @@
 /* some fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 /* ----------------
     common styles 
@@ -109,15 +110,27 @@ button a {
   font-family: "Poppins", sans-serif;
   font-size: 28px;
   font-weight: 500;
+  margin-bottom: 8px;
+}
+.product-info p {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
 }
 .price-tag {
   font-size: 24px;
+  margin-bottom: 10px;
 }
-.ratting {
+.ratting-no {
   font-size: 14px;
+  font-weight: 700;
 }
-.ratting .fa-star {
+.fa-star {
   color: #fb8200;
+  font-size: 10px;
+}
+.last-star {
+  padding-right: 8px;
 }
 /*---------------
   footer style 
