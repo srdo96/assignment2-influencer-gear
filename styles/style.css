@@ -142,14 +142,71 @@ body {
 .popular-collection a {
   text-decoration: none;
   font-size: 16px;
-  /* display: flex;
-  justify-content: end; */
   margin-left: 1070px;
   margin-right: 19px;
 }
 .fa-arrow-right {
   margin-top: 3px;
   padding-left: 15px;
+}
+.club {
+  height: 165px;
+  background-color: #51e1ed;
+}
+.club {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.club h4 {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  margin-right: 50px;
+}
+.signup-button {
+  font-family: "IBM Plex Mono", monospace;
+
+  outline: none;
+  border-radius: 50px;
+  font-weight: 700;
+  background-color: white;
+}
+/* support style */
+
+.support-area {
+  text-align: center;
+}
+.support-area h2 {
+  margin-left: 50px;
+}
+.support-area img {
+  margin-left: 1px;
+  margin-bottom: 2px;
+}
+.support {
+  display: flex;
+  justify-content: space-evenly;
+}
+.product-support,
+.product-reg,
+.utility {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.support-button {
+  background-color: #e02c6d;
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 500px;
+  width: 155px;
+  height: 44px;
+}
+.support-button a {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: white;
 }
 /*---------------
   footer style 
@@ -190,6 +247,7 @@ footer p {
 .social-media li {
   list-style: none;
 }
+
 footer a {
   color: #ffffff;
   margin-top: 14px;
