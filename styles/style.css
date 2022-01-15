@@ -32,3 +32,8 @@ button {
   font-size: 16px;
   font-weight: 600;
 }
+.preebook-button {
+  border-radius: 41px;
+  width: 196px;
+  height: 44px;
+}
