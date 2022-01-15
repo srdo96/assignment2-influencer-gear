@@ -132,10 +132,11 @@ footer h5 {
   margin-top: 50px;
   margin-bottom: 3px;
 }
-footer p,
-span {
+footer p {
   font-size: 14px;
   color: #d9dbe1;
+  margin-top: 0;
+  margin-bottom: 3px;
 }
 .social-media {
   display: flex;
@@ -146,5 +147,6 @@ span {
 }
 footer a {
   color: #ffffff;
+  margin-top: 14px;
   margin-right: 16px;
 }
