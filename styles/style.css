@@ -177,6 +177,8 @@ body {
 
 .support-area {
   text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 .support-area h2 {
   margin-left: 50px;
@@ -189,6 +191,12 @@ body {
   display: flex;
   justify-content: space-evenly;
 }
+.support a {
+  text-decoration: none;
+  font-weight: 800;
+  color: black;
+}
+
 .product-support,
 .product-reg,
 .utility {
