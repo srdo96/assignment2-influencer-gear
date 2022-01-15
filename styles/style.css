@@ -9,23 +9,18 @@
 body {
   margin: 0;
 }
-button {
+.pink-color {
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   height: 44px;
   font-weight: bold;
-  background-color: #e02c6d;
-  border: 0;
+  color: #e02c6d;
 }
-button a {
-  text-decoration: none;
-  width: 24px;
-  height: 24px;
-  color: #ffffff;
-}
+
 /* -----------------
     header style 
 --------------------*/
-.navigation-bar h1 {
+.navigation-bar h3 {
   font-family: "Poppins", sans-serif;
   font-size: 24px;
   font-weight: 700;
@@ -53,14 +48,23 @@ button a {
   font-size: 16px;
   font-weight: 600;
 }
+
+.cover-pic img {
+  width: 440px;
+  height: 414px;
+}
 .preebook-button {
   border-radius: 41px;
   width: 196px;
   height: 44px;
+  border: 0;
 }
-.cover-pic img {
-  width: 440px;
-  height: 414px;
+.preebook-button a {
+  text-decoration: none;
+  width: 24px;
+  height: 24px;
+  color: #ffffff;
+  background-color: #e02c6d;
 }
 /* ----------------------------
     popular collection style
@@ -79,12 +83,7 @@ button a {
   color: #3a3a3a;
   margin-bottom: 30px;
 }
-.popular-collection a {
-  text-decoration: none;
-  display: flex;
-  justify-content: end;
-  margin-right: 197px;
-}
+
 .product-list {
   display: grid;
   grid-template-columns: repeat(3, 329px);
@@ -139,6 +138,18 @@ button a {
 }
 .last-star {
   padding-right: 8px;
+}
+.popular-collection a {
+  text-decoration: none;
+  font-size: 16px;
+  /* display: flex;
+  justify-content: end; */
+  margin-left: 1070px;
+  margin-right: 19px;
+}
+.fa-arrow-right {
+  margin-top: 3px;
+  padding-left: 15px;
 }
 /*---------------
   footer style 
