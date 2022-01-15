@@ -1,6 +1,7 @@
 /* some fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
 
 /* ----------------
     common styles 
@@ -65,15 +66,18 @@ button a {
     popular collection style
 ------------------------------- */
 .popular-collection {
+  margin-top: 100px;
   margin-left: 196px;
   margin-right: 196px;
 }
 .popular-collection .section-title {
+  font-family: "Poppins", sans-serif;
   display: flex;
   justify-content: center;
   font-weight: 600;
   font-size: 28px;
   color: #3a3a3a;
+  margin-bottom: 30px;
 }
 .popular-collection a {
   text-decoration: none;
@@ -161,7 +165,9 @@ footer h5 {
   margin-bottom: 3px;
 }
 footer p {
+  font-family: "Manrope", sans-serif;
   font-size: 14px;
+  font-weight: 700;
   color: #d9dbe1;
   margin-top: 0;
   margin-bottom: 3px;
