@@ -76,7 +76,6 @@ body {
     popular collection style
 ------------------------------- */
 .popular-collection {
-  text-align: end;
   margin-top: 100px;
   margin-left: 196px;
   margin-right: 196px;
@@ -161,9 +160,12 @@ body {
 }
 .see-more {
   font-family: "Poppins", sans-serif;
+  text-align: end;
   font-size: 16px;
   padding-right: 5%;
   font-weight: bold;
+}
+.see-more a {
   color: #e02c6d;
 }
 
