@@ -76,6 +76,7 @@ body {
     popular collection style
 ------------------------------- */
 .popular-collection {
+  text-align: end;
   margin-top: 100px;
   margin-left: 196px;
   margin-right: 196px;
@@ -152,7 +153,6 @@ body {
 .popular-collection a {
   text-decoration: none;
   font-size: 16px;
-  margin-left: 1070px;
   margin-right: 19px;
 }
 .fa-arrow-right {
@@ -160,18 +160,12 @@ body {
   padding-left: 15px;
 }
 .see-more {
-  display: flex;
-  justify-content: end;
-  margin-right: 5%;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
-  height: 44px;
+  padding-right: 5%;
   font-weight: bold;
-}
-.see-more a {
   color: #e02c6d;
 }
-/* support style */
 
 .support-area {
   text-align: center;
