@@ -1,5 +1,5 @@
 /* for mobile */
-@media only screen and (max-width: 1454px) {
+@media only screen and (max-width: 1455px) {
   .cover-page-info h1{
     font-size: 32px;
   }
@@ -10,6 +10,10 @@
   .product-list{
     grid-template-columns: repeat(3, 229px);
     grid-column-gap: 150px;
+  }
+  .see-more{
+    padding-right: 0;
+    padding-top: 40px;
   }
 }
 @media only screen and (max-width: 1199px){
@@ -27,7 +31,7 @@
 }
 @media (max-width: 970px) {
   .navigation-bar h3, .cover-page, .popular-collection{
-    margin-left: 100px;
+    margin-left: 150px;
   }
   .cover-page-info h1{
     font-size: 15px;
@@ -40,8 +44,13 @@
     grid-template-columns: repeat(2, 250px);
     grid-column-gap: 150px;
   }
-  
-}
+  } 
+  @media (max-width: 522px) {
+    .cover-page{
+      flex-direction: column-reverse;
+    }
+    
+  }
 
 
   /* body {
